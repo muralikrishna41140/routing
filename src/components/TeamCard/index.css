@@ -1,0 +1,79 @@
+/* ===== Dashboard Background ===== */
+.app-bg {
+  background-color: #0f172a;
+  min-height: 100vh;
+}
+
+/* ===== Team Card ===== */
+.team-card {
+  background-color: #ffffff33;
+  border: 2px solid #475569;
+  border-radius: 12px;
+
+  width: 320px;
+  height: 120px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  padding: 16px;
+  margin: 12px;
+
+  transition: transform 0.2s ease, border 0.2s ease;
+}
+
+/* ===== Hover Effect ===== */
+.team-card:hover {
+  transform: scale(1.04);
+  border: 2px solid #ffffff;
+}
+
+/* ===== Team Name ===== */
+.team-name {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0;
+  flex: 1;
+}
+
+/* ===== Team Logo ===== */
+.team-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* ===== Team Theme Colors ===== */
+.rcb {
+  background-color: #a4261d;
+}
+
+.csk {
+  background-color: #f7db00;
+}
+
+.mi {
+  background-color: #13418b;
+}
+
+.kkr {
+  background-color: #5755a7;
+}
+
+.srh {
+  background-color: #f26d22;
+}
+
+.rr {
+  background-color: #da237b;
+}
+
+.dc {
+  background-color: #4f5db0;
+}
+
+.pbks {
+  background-color: #d91c1f;
+}
