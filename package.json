@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite",
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 vite",
     "build": "export NODE_OPTIONS=\"--max-old-space-size=4096\" && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -13,6 +13,7 @@
   "dependencies": {
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "react-loader-spinner": "^8.0.2",
     "react-router": "7.5.3",
     "react-spinners": "0.17.0"
   },
@@ -25,6 +26,7 @@
     "@types/react": "19.0.10",
     "@types/react-dom": "19.0.4",
     "@vitejs/plugin-react": "4.3.4",
+    "cross-env": "^10.1.0",
     "eslint": "9.21.0",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "5.2.3",
